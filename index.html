@@ -20,6 +20,7 @@
                     <a href="#home" class="text-black hover:text-gray-800 transition-colors duration-200" aria-label="Home">Home</a>
                     <a href="#projects" class="text-black hover:text-gray-800 transition-colors duration-200" aria-label="Projects">Projects</a>
                     <a href="#skills" class="text-black hover:text-gray-800 transition-colors duration-200" aria-label="Skills">Skills</a>
+                    <a href="#experience" class="text-black hover:text-gray-800 transition-colors duration-200" aria-label="Experience">Experience</a>
                     <a href="#contact" class="text-black hover:text-gray-800 transition-colors duration-200" aria-label="Contact">Contact</a>
                 </div>
             </div>
@@ -32,7 +33,10 @@
             <img src="https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-1/491918911_2674628886074063_8889419190972090976_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ITPMat-SXrQQ7kNvwFcPEWN&_nc_oc=AdlwKGt4o9lWm-IyoiagrGduQO33oz0YO3TARV1_7p0FeEFNUOe4833rDgx5X-A_x-s&_nc_zt=24&_nc_ht=scontent.fceb3-1.fna&_nc_gid=B3komIe7leNb0KsaXptT-Q&oh=00_AfJEphIrCdXD-Xoma1w3tBtFhXtgNOdbgDV1kURR-G4xUA&oe=6827F3EE" alt="Jan Michael Getutua Profile Picture" class="w-32 h-32 sm:w-40 sm:h-40 rounded-full mx-auto mb-6 border-4 border-white object-cover" loading="lazy">
             <h2 class="text-4xl sm:text-5xl font-bold mb-4 text-black">Hi, I'm Jan Michael Getutua</h2>
             <p class="text-lg sm:text-xl mb-6 text-black">I use cutting-edge web technology to create outstanding digital experiences, focused on writing clear, effective code and user-friendly interfaces.</p>
-            <a href="#contact" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition-colors duration-200">Contact Me</a>
+            <div class="flex justify-center space-x-4">
+                <a href="#contact" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition-colors duration-200">Contact Me</a>
+                <a href="#projects" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition-colors duration-200">View Work</a>
+            </div>
         </div>
     </section>
 
@@ -43,16 +47,14 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <!-- Project Card 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition-transform duration-300">
-                    <img src="https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MH commodities-photo-page%7C%7C%7Cen%7C%7C%7C%7C" alt="E-commerce Platform" class="w-full h-48 object-cover" loading="lazy">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb afloat-2 text-black">E-commerce Platform</h3>
+                        <h3 class="text-xl font-semibold mb-2 text-black">E-commerce Platform</h3>
                         <p class="text-black mb-4">Built a responsive e-commerce platform with React and Tailwind CSS.</p>
                         <a href="#" class="text-black hover:underline">View Project</a>
                     </div>
                 </div>
                 <!-- Project Card 2 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition-transform duration-300">
-                    <img src="https://i0.wp.com/www.lovelycoding.org/wp-content/uploads/2022/09/Library-Management-System.webp?resize=640%2C427&ssl=1" alt="Library Management System" class="w-full h-48 object-cover" loading="lazy">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2 text-black">Library Management System</h3>
                         <p class="text-black mb-4">Library management system is software that is designed to manage all the functions of a library. It helps librarian to maintain the database of new books and the books that are borrowed by members along with their due dates.</p>
@@ -132,6 +134,26 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-purple-100 text-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Experience</h2>
+            <div class="grid grid-cols-1 gap-8">
+                <!-- Experience Card -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-black">Web Developer - Magicmelt Foods Inc.</h3>
+                        <p class="text-black mb-2">Cebu, Philippines | January 2023 - Present</p>
+                        <ul class="list-disc list-inside text-black mb-4">
+                            <li>Helped and maintained the company website using PHP and Tailwind CSS.</li>
+                        </ul>
+                        <p class="text-black italic">Magicmelt Foods Inc. produces high-quality biscuits and pastries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-16 bg-purple-100 text-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -163,7 +185,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-purple-100 text-black py-6">
